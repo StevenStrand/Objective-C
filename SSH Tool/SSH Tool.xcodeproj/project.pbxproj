@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08ACBE111ADAB6CE00A546A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ACBE101ADAB6CE00A546A0 /* AppDelegate.m */; };
+		08ACBE131ADAB6CE00A546A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ACBE121ADAB6CE00A546A0 /* main.m */; };
+		08ACBE151ADAB6CE00A546A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ACBE141ADAB6CE00A546A0 /* Images.xcassets */; };
+		08ACBE181ADAB6CE00A546A0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08ACBE161ADAB6CE00A546A0 /* MainMenu.xib */; };
+		08ACBE241ADAB6CE00A546A0 /* SSH_ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ACBE231ADAB6CE00A546A0 /* SSH_ToolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08ACBE1E1ADAB6CE00A546A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08ACBE021ADAB6CE00A546A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ACBE091ADAB6CE00A546A0;
+			remoteInfo = "SSH Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ACBE0A1ADAB6CE00A546A0 /* SSH Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSH Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ACBE0E1ADAB6CE00A546A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ACBE0F1ADAB6CE00A546A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08ACBE101ADAB6CE00A546A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08ACBE121ADAB6CE00A546A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08ACBE141ADAB6CE00A546A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08ACBE171ADAB6CE00A546A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		08ACBE1D1ADAB6CE00A546A0 /* SSH ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSH ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ACBE221ADAB6CE00A546A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ACBE231ADAB6CE00A546A0 /* SSH_ToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSH_ToolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08ACBE071ADAB6CE00A546A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ACBE1A1ADAB6CE00A546A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08ACBE011ADAB6CE00A546A0 = {
+			isa = PBXGroup;
+			children = (
+				08ACBE0C1ADAB6CE00A546A0 /* SSH Tool */,
+				08ACBE201ADAB6CE00A546A0 /* SSH ToolTests */,
+				08ACBE0B1ADAB6CE00A546A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08ACBE0B1ADAB6CE00A546A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08ACBE0A1ADAB6CE00A546A0 /* SSH Tool.app */,
+				08ACBE1D1ADAB6CE00A546A0 /* SSH ToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08ACBE0C1ADAB6CE00A546A0 /* SSH Tool */ = {
+			isa = PBXGroup;
+			children = (
+				08ACBE0F1ADAB6CE00A546A0 /* AppDelegate.h */,
+				08ACBE101ADAB6CE00A546A0 /* AppDelegate.m */,
+				08ACBE141ADAB6CE00A546A0 /* Images.xcassets */,
+				08ACBE161ADAB6CE00A546A0 /* MainMenu.xib */,
+				08ACBE0D1ADAB6CE00A546A0 /* Supporting Files */,
+			);
+			path = "SSH Tool";
+			sourceTree = "<group>";
+		};
+		08ACBE0D1ADAB6CE00A546A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08ACBE0E1ADAB6CE00A546A0 /* Info.plist */,
+				08ACBE121ADAB6CE00A546A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08ACBE201ADAB6CE00A546A0 /* SSH ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				08ACBE231ADAB6CE00A546A0 /* SSH_ToolTests.m */,
+				08ACBE211ADAB6CE00A546A0 /* Supporting Files */,
+			);
+			path = "SSH ToolTests";
+			sourceTree = "<group>";
+		};
+		08ACBE211ADAB6CE00A546A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08ACBE221ADAB6CE00A546A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08ACBE091ADAB6CE00A546A0 /* SSH Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ACBE271ADAB6CE00A546A0 /* Build configuration list for PBXNativeTarget "SSH Tool" */;
+			buildPhases = (
+				08ACBE061ADAB6CE00A546A0 /* Sources */,
+				08ACBE071ADAB6CE00A546A0 /* Frameworks */,
+				08ACBE081ADAB6CE00A546A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSH Tool";
+			productName = "SSH Tool";
+			productReference = 08ACBE0A1ADAB6CE00A546A0 /* SSH Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08ACBE1C1ADAB6CE00A546A0 /* SSH ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ACBE2A1ADAB6CE00A546A0 /* Build configuration list for PBXNativeTarget "SSH ToolTests" */;
+			buildPhases = (
+				08ACBE191ADAB6CE00A546A0 /* Sources */,
+				08ACBE1A1ADAB6CE00A546A0 /* Frameworks */,
+				08ACBE1B1ADAB6CE00A546A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08ACBE1F1ADAB6CE00A546A0 /* PBXTargetDependency */,
+			);
+			name = "SSH ToolTests";
+			productName = "SSH ToolTests";
+			productReference = 08ACBE1D1ADAB6CE00A546A0 /* SSH ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08ACBE021ADAB6CE00A546A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Steven Strand";
+				TargetAttributes = {
+					08ACBE091ADAB6CE00A546A0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					08ACBE1C1ADAB6CE00A546A0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 08ACBE091ADAB6CE00A546A0;
+					};
+				};
+			};
+			buildConfigurationList = 08ACBE051ADAB6CE00A546A0 /* Build configuration list for PBXProject "SSH Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08ACBE011ADAB6CE00A546A0;
+			productRefGroup = 08ACBE0B1ADAB6CE00A546A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08ACBE091ADAB6CE00A546A0 /* SSH Tool */,
+				08ACBE1C1ADAB6CE00A546A0 /* SSH ToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08ACBE081ADAB6CE00A546A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ACBE151ADAB6CE00A546A0 /* Images.xcassets in Resources */,
+				08ACBE181ADAB6CE00A546A0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ACBE1B1ADAB6CE00A546A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08ACBE061ADAB6CE00A546A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ACBE131ADAB6CE00A546A0 /* main.m in Sources */,
+				08ACBE111ADAB6CE00A546A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ACBE191ADAB6CE00A546A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ACBE241ADAB6CE00A546A0 /* SSH_ToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08ACBE1F1ADAB6CE00A546A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ACBE091ADAB6CE00A546A0 /* SSH Tool */;
+			targetProxy = 08ACBE1E1ADAB6CE00A546A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08ACBE161ADAB6CE00A546A0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08ACBE171ADAB6CE00A546A0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08ACBE251ADAB6CE00A546A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08ACBE261ADAB6CE00A546A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		08ACBE281ADAB6CE00A546A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SSH Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08ACBE291ADAB6CE00A546A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SSH Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08ACBE2B1ADAB6CE00A546A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSH ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSH Tool.app/Contents/MacOS/SSH Tool";
+			};
+			name = Debug;
+		};
+		08ACBE2C1ADAB6CE00A546A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSH ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSH Tool.app/Contents/MacOS/SSH Tool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08ACBE051ADAB6CE00A546A0 /* Build configuration list for PBXProject "SSH Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ACBE251ADAB6CE00A546A0 /* Debug */,
+				08ACBE261ADAB6CE00A546A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ACBE271ADAB6CE00A546A0 /* Build configuration list for PBXNativeTarget "SSH Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ACBE281ADAB6CE00A546A0 /* Debug */,
+				08ACBE291ADAB6CE00A546A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ACBE2A1ADAB6CE00A546A0 /* Build configuration list for PBXNativeTarget "SSH ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ACBE2B1ADAB6CE00A546A0 /* Debug */,
+				08ACBE2C1ADAB6CE00A546A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08ACBE021ADAB6CE00A546A0 /* Project object */;
+}
